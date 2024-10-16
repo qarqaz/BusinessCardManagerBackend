@@ -53,12 +53,12 @@ The backend project follows the Onion Architecture, divided into the following l
 
 ## API Endpoints
 
--**GET** /api/businesscard: Get all business cards.
--**GET** /api/businesscard/{id}: Get a specific business card by ID.
--**POST** /api/businesscard/create: Create a new business card.
--**PUT** /api/businesscard/{id}: Update an existing business card.
--**DELETE** /api/businesscard/{id}: Delete a business card.
--**GET** /api/businesscard/export/{id}/{format}: Export a business card in CSV (1) or XML (2) format.
+- **GET**: /api/businesscard: Get all business cards.
+- **GET**: /api/businesscard/{id}: Get a specific business card by ID.
+- **POST**: /api/businesscard/create: Create a new business card.
+- **PUT**: /api/businesscard/{id}: Update an existing business card.
+- **DELETE**: /api/businesscard/{id}: Delete a business card.
+- **GET**: /api/businesscard/export/{id}/{format}: Export a business card in CSV (1) or XML (2) format.
 
 ## Unit Testing
 

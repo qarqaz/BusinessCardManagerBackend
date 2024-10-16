@@ -40,7 +40,7 @@ The backend project follows the Onion Architecture, divided into the following l
    
 To quickly set up the database for this project, a backup file is provided.
 
-1. Download the `BusinessCardDb.bak` file from the [db-backups folder](https://github.com/qarqaz/BusinessCardManagerBackend/tree/StableReleaseV1/db-backups).
+1. Download the `BusinessCardDb.bak` file from the [db-backups folder](https://github.com/qarqaz/BusinessCardManagerBackend/blob/StableReleaseV1/BusinessCardDb.bak)
 2. Restore the database in **SQL Server** using the following steps:
    - Open SQL Server Management Studio (SSMS).
    - Right-click on `Databases`, then select `Restore Database`.

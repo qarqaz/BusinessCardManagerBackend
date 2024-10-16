@@ -37,11 +37,17 @@ The backend project follows the Onion Architecture, divided into the following l
    cd BusinessCardManagerBackend
    
 3. **Set up the database**:
-   -*appsettings.json*
-   ```bash
-    "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=BusinessCardDb;Trusted_Connection=True;TrustServerCertificate=True;"
-    }
+   
+To quickly set up the database for this project, a backup file is provided.
+
+1. Download the `BusinessCardDb.bak` file from the [db-backups folder](https://github.com/qarqaz/BusinessCardManagerBackend/tree/StableReleaseV1/db-backups).
+2. Restore the database in **SQL Server** using the following steps:
+   - Open SQL Server Management Studio (SSMS).
+   - Right-click on `Databases`, then select `Restore Database`.
+   - Choose `Device`, click the `...` button, and locate the `BusinessCardDb.bak` file.
+   - Click `OK` to restore the database.
+   
+Make sure to update the connection string in `appsettings.json` to match your local SQL Server setup.
    
 4. **Apply migrations**:
    ```bash
